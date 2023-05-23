@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-width: 1089px;
+}
+
+.container {
+  max-width: 1089px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+}
+
+.navvvv {
+  width: 100%;
+}
+
+.logo1,
+.logo2h1,
+.side2h1,
+.logo3h1,
+.logo4h1,
+.cardsh1,
+.logo5h1,
+.logo6h1,
+.logo7h1,
+.logo8h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #222222;
+}
+
+.logo1 {
+  font-size: 24px;
+  margin: 56px 0 0 auto;
+}
+
+nav {
+  margin-left: auto;
+  margin-top: 57px;
+  margin-right: 84px;
+}
+
+.links1 {
+  padding: 37px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.links1:hover {
+  border-bottom: 3px solid #fcac45;
+}
+
+.main {
+  width: 100%;
+}
+
+.logo2 {
+  background-color: #000;
+  padding: 296px 0 425px;
+  text-align: center;
+  color: #999;
+  font-weight: lighter;
+}
+
+.logo2h1 {
+  font-size: 44px;
+}
+
+.spanmycomp {
+  font-weight: bold;
+  color: #fcac45;
+}
+
+.spancomp {
+  font-weight: bold;
+  color: #b7b7b7;
+}
+
+.comp {
+  font-size: 20px;
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+}
+
+.side1 {
+  padding-top: 105px;
+  padding-bottom: 101px;
+}
+
+.side2 {
+  margin-left: 177px;
+  padding-top: 136px;
+}
+
+.side2h1 {
+  border-bottom: 4px solid #fcac45;
+  padding-bottom: 21px;
+}
+
+.spanside2 {
+  font-weight: bold;
+}
+
+.side2p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 31px;
+  color: #898989;
+}
+
+.side2div {
+  margin-top: 45px;
+}
+
+.side2span {
+  font-weight: 300;
+  color: #7b7b7b;
+}
+
+.side2p2 {
+  font-weight: 600;
+  color: #7b7b7b;
+}
+
+.side2 p {
+  background: url(images/tochka.png) 0px no-repeat;
+  padding-left: 20px;
+}
+
+.logo3h1 {
+  padding-top: 100px;
+}
+
+.logo3 {
+  background-color: #000;
+}
+
+.logo3div1 {
+  width: 100%;
+}
+
+.logo3line {
+  border-bottom: 5px solid #fcac45;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 107px;
+}
+
+.logo3photo {
+  margin-top: 100px;
+  background: #d7d7d7;
+  height: 127px;
+  width: 127px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.team__list1 {
+  display: flex;
+  color: #eee;
+  text-align: center;
+  padding-right: 44px;
+  padding-bottom: 167px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo3name {
+  padding-top: 22px;
+  font-weight: bold;
+}
+
+.logo3p1 {
+  padding-top: 7px;
+}
+
+.logo3p2 {
+  padding-top: 39px;
+  font-size: 16px;
+}
+
+.logo4 {
+  background-color: #fff;
+}
+
+.logo4div1 {
+  width: 100%;
+}
+
+.logo4line {
+  border-bottom: 5px solid #fcac45;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 55px;
+}
+
+.logo4p1 {
+  color: #6c6c6c;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 102px;
+  font-style: italic;
+}
+
+.cards {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cardsh1 {
+  font-size: 25px;
+  padding-top: 29px;
+}
+
+.cardsp {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 21px;
+}
+
+.cardsm {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 50px;
+  padding-bottom: 101px;
+}
+
+.logo5 {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+  padding-bottom: 211px;
+}
+
+.logo5div1 {
+  width: 100%;
+}
+
+.logo5h1 {
+  font-size: 44px;
+  color: #e7e7e7;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 101px;
+  padding-bottom: 30px;
+}
+
+.logo5span1 {
+  font-weight: 600;
+}
+
+.logo5border {
+  border-bottom: 5px solid #fcac45;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+
+.logo5photom {
+  width: 100%;
+}
+
+.logo5photo {
+  margin-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-column-gap: 33px;
+}
+
+.logo6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo6div1 {
+  width: 100%;
+}
+
+.logo6h1 {
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.logo6line {
+  border-bottom: 5px solid #fcac45;
+  padding-top: 30px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logo6span1 {
+  font-weight: 600;
+}
+
+.logo6p1 {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 56px;
+  padding-bottom: 175px;
+}
+
+.logo6alboms {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 31px;
+  grid-gap: 30px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.logo6img1 {
+  width: 263px;
+  height: 237px;
+}
+
+.logo7 {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+}
+
+.logo7div1 {
+  width: 100%;
+}
+
+.logo7h1 {
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.logo7line {
+  border-bottom: 5px solid #fcac45;
+  padding-top: 30px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.logo7p1 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.logo7features {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 50px;
+  grid-row-gap: 60px;
+  padding-bottom: 150px;
+}
+
+.logo7img1 {
+  width: 84px;
+  height: 85px;
+}
+
+.logo8 {
+  background-color: #000;
+  padding-bottom: 50px;
+}
+
+.logo8h1 {
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+  color: #e6e6e6;
+  padding-top: 101px;
+  padding-bottom: 29px;
+}
+
+.logo8line {
+  border-bottom: 5px solid #fcac45;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 112px;
+}
+
+.logo8div1 {
+  width: 100%;
+}
+
+.logo8reviews {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 68px;
+  grid-row-gap: 38px;
+  padding-bottom: 90px;
+}
+
+.logo8img1 {
+  width: 90px;
+  height: 90px;
+}
+
+.logo8name {
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.logo8p1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8a8a8a;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #000;
+  color: #888888;
+  padding-top: 100px;
+  padding-bottom: 83px;
+  text-align: center;
+}
+
+.footerh1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.footerlinks a {
+  margin: 0 16px;
+  color: #888888;
+}
+
+.footerlinks a:hover {
+  color: #fcac45;
+}
+
+.footerline {
+  width: 100%;
+  border-bottom: 1px solid #4b4b4b;
+  padding-bottom: 80px;
+  margin-bottom: 46px;
+}
+
+.footerspan {
+  color: #fcac45;
+  font-weight: 600;
+}
